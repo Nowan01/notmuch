@@ -17,61 +17,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <style>
-      body {
-        background: url("william-j.jpg");
-        background-size: 100%;
-        margin: 5%;
-      }
-      div { 
-        padding: 5%;
-        margin: 0 auto;
-        width: 1000px;
-        background: #AAAAAA77;
-        border-radius: 15px;
-
-      }
-      h1 {
-        display: block;
-      }
-      .bold {
-        font-weight: 700;
-        font-size: 30px;
-      }
-      #saucisses {
-        background: url("site-de-saucisses.jpg");
-        width: 640px;
-        height: 355px;
-        position: static;
-        left: 0;
-        top: 0;
-      }
-  </style>
   <body>
-      <div id="box" style="height: 360px;">
-        <h1>J'm'en fou, tu peux faire n'importe quoi, tu peux faire des saucisses...</h1>
-        <p>Saucisses William Suisses au Fromage, Saucisses au Bison, Longe de porc, <strong>Côtes levées au Chipotle</strong>, braisé de boeuf bourgignon. Hamburger au Fromage et Bacon. Sandwich aux saucisses. <span id='span'>Short ribs sausage</span>, beef pancetta, cupim tongue salami doner, pork chop, Bacon strips. Venison strip steak, pancetta meatball, porc jowl sausage, Prime Tri-Tip Wellington. Porchetta burgdoggen pork belly corned beef. Cupim shankle bresaola, picanha, strip steak, biltong beef jerky, t-bone brisket, porchetta hamburger, chicken breast, pork loin pancetta. Chicken donair. Beef Kefta. Chicken Pita. Whale soup in a bread bowl, veal sausage side dish.</p>
-      </div>
 
-      <div id="saucisses"></div>
+
+
+    <!-- TODO: Here goes your content! -->
+
+
+
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        console.log('sauce');
-
-        $('#box').mouseover(function() {
-          console.log('brune');
-          var span = $('#span');
-          span.addClass('bold');
-
-          setTimeout(function() {
-            span.removeClass('bold');
-          }, 4000);
-        });
-      });
-      
-    </script>
   </body>
 </html>
